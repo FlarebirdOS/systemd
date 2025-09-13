@@ -50,6 +50,9 @@ case "$op" in
         systemd_live
         /usr/lib/systemd/systemd-sysctl
     ;;
+    sysusers)
+        /usr/bin/systemd-sysusers
+    ;;
     tmpfiles)
         /usr/bin/systemd-tmpfiles --create
     ;;
